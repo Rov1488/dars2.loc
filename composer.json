@@ -1,0 +1,21 @@
+{
+  "name": "vendor_name/dars2.loc",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "R.Pulatov",
+      "email": "email@example.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "core\\": "vendor/core",
+      "app\\": "app"
+    }
+  },
+  "require": {
+    "vlucas/valitron": "^1.4"
+  }
+}
